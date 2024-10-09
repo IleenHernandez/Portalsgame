@@ -1,0 +1,24 @@
+print("You wake up dizzy and confused you look around, as you look around you find your eyes staring into 2 doors one that has a glitchy appearance and the other bright white burning your eye balls.")
+print("Which door would you like to enter bright burning door or glitchy one?")
+roomSelection = input("Enter bright door  or glitchy?")
+if roomSelection == "bright door":
+    print("Entered bright door") 
+    roomSelection = input("Enter pink or red?")
+    if roomSelection == "pink":
+        print("Entered pink")
+    elif roomSelection =="red":
+        print("Entered red")
+    else: 
+        print("As you continue to enter sketchy doors you begin to realize you aren’t getting anywhere each door leads you to several worlds.")
+elif roomSelection =="glitchy":
+    print("Entered glitchy") 
+    roomSelection = input("Enter blue or purple?")
+    if roomSelection == "blue":
+        print("Entered blue")
+    elif roomSelection =="purple":
+        print("Entered purple")
+    else: 
+        print("Invalid entry. Program is closing.")
+else: 
+    print("Invalid entry. Program is closing.")
+
